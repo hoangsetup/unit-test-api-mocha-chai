@@ -1,0 +1,26 @@
+{
+  "name": "mocha-chai",
+  "version": "1.0.0",
+  "description": "Test a Node RESTful API with Mocha and Chai",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "config": "^1.25.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.15",
+    "morgan": "^1.7.0",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "start": "SET NODE_ENV=dev&& node app.js",
+    "test": "SET NODE_ENV=test&& mocha --timeout 10000"
+  },
+  "keywords": ["mocha", "chai", "test", "api"],
+  "author": "hoangdv",
+  "license": "ISC"
+}
